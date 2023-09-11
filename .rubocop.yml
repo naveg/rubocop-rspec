@@ -28,6 +28,7 @@ Layout/LineLength:
   Max: 80 # default: 120
   AllowedPatterns:
     - '^\s*# .*https?:\/\/.+\[.+\]\.?$' # Allow long asciidoc links
+    - '\A\s*# @example' # Allow long example descriptions comment
 
 Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented
